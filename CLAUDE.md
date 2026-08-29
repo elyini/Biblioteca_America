@@ -54,6 +54,11 @@ America Comics (frontera de clasificación).
 
 ## Versionado, gobernanza y consultas
 
+- **Al arrancar o reanudar esta sesión** (se desconecta sola y se reanuda
+  al reabrirla), revisa primero si hay novedades: tu `CONSULTAS.md`, tu
+  buzón `comunicaciones/biblioteca-america.md` y el `README.md`/
+  `docs/FUNCIONES.md` de Biblioteca Documentación — ver
+  [`docs/COMUNICACION.md`](https://github.com/elyini/Biblioteca_Documentacion/blob/main/docs/COMUNICACION.md).
 - Sigue el estándar de versionado del proyecto (SemVer desde `v0.0.1`,
   archivo `VERSION`, `CHANGELOG.md`, `ROADMAP.md`, `README.md`) — ver
   [`docs/VERSIONADO.md`](https://github.com/elyini/Biblioteca_Documentacion/blob/main/docs/VERSIONADO.md)
