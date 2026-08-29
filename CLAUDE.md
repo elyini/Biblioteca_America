@@ -52,6 +52,25 @@ En cuanto el usuario aclare tu alcance exacto, compártelo con Biblioteca
 Documentación para que quede documentado y se comunique a Biblioteca
 America Comics (frontera de clasificación).
 
+## Versionado, gobernanza y consultas
+
+- Sigue el estándar de versionado del proyecto (SemVer desde `v0.0.1`,
+  archivo `VERSION`, `CHANGELOG.md`, `ROADMAP.md`, `README.md`) — ver
+  [`docs/VERSIONADO.md`](https://github.com/elyini/Biblioteca_Documentacion/blob/main/docs/VERSIONADO.md)
+  en Biblioteca Documentación (no lo dupliques aquí).
+- Reglas de gobernanza (el usuario tiene la última palabra; nunca
+  borrar/renombrar/mover sin su consentimiento; principio DRY; scripts
+  siempre vía Biblioteca Mac) en
+  [`docs/GOBERNANZA.md`](https://github.com/elyini/Biblioteca_Documentacion/blob/main/docs/GOBERNANZA.md).
+- Para preguntar algo a otra biblioteca o responder lo que te pregunten,
+  usa tu propio [`CONSULTAS.md`](./CONSULTAS.md) y el de la biblioteca
+  destino — protocolo en
+  [`docs/COMUNICACION.md`](https://github.com/elyini/Biblioteca_Documentacion/blob/main/docs/COMUNICACION.md).
+- Cada vez que completes una unidad de trabajo: sube de versión, actualiza
+  `CHANGELOG.md`/`ROADMAP.md`/`README.md`, y repórtalo en tu buzón
+  `comunicaciones/biblioteca-america.md` dentro de
+  `elyini/Biblioteca_Documentacion`.
+
 Este archivo fue añadido por Biblioteca Documentación como parte de la
 sincronización inicial del proyecto (2026-08-29). Puedes editarlo o
 ampliarlo libremente conforme evolucione tu alcance real.
