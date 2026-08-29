@@ -59,6 +59,10 @@ America Comics (frontera de clasificación).
   buzón `comunicaciones/biblioteca-america.md` y el `README.md`/
   `docs/FUNCIONES.md` de Biblioteca Documentación — ver
   [`docs/COMUNICACION.md`](https://github.com/elyini/Biblioteca_Documentacion/blob/main/docs/COMUNICACION.md).
+- **Antes de investigar un error**, busca en
+  [`docs/ERRORES_CONOCIDOS.md`](https://github.com/elyini/Biblioteca_Documentacion/blob/main/docs/ERRORES_CONOCIDOS.md)
+  por si ya lo resolvió otra biblioteca; al resolverlo, añade tú la
+  entrada allí (lectura/escritura directa, sin pasar por el buzón).
 - Sigue el estándar de versionado del proyecto (SemVer desde `v0.0.1`,
   archivo `VERSION`, `CHANGELOG.md`, `ROADMAP.md`, `README.md`) — ver
   [`docs/VERSIONADO.md`](https://github.com/elyini/Biblioteca_Documentacion/blob/main/docs/VERSIONADO.md)
