@@ -28,6 +28,15 @@ americano (superhéroes, etc.) tiene su propia biblioteca dedicada:
 - **Biblioteca Documentación** (`elyini/Biblioteca_Documentacion`) — nodo
   central de documentación y coordinación. Mantiene el mapa de todas las
   bibliotecas, sus roles y las convenciones compartidas.
+
+  Nota importante: la mensajería directa entre chats (sesiones) no
+  funciona de forma fiable en este entorno (los contenedores son
+  independientes). Si necesitas contactar a Biblioteca Documentación,
+  añade su repositorio (`add_repo` con `elyini/Biblioteca_Documentacion`,
+  `access: "read"`) y lee `README.md` y `docs/FUNCIONES.md`. Si tienes una
+  consulta que no está resuelta ahí, añádela (con `access: "push"`) a tu
+  archivo en `comunicaciones/biblioteca-america.md` siguiendo
+  `docs/COMUNICACION.md`.
 - **Biblioteca elyini** (`elyini/Bibiloteca_elyini`) — construye la app
   central; define el esquema de datos que debes seguir.
 - **Biblioteca Mac** — instala/ejecuta la app en el Mac del usuario.
