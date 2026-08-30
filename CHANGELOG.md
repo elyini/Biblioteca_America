@@ -6,6 +6,28 @@ el estándar completo en
 [`docs/VERSIONADO.md`](https://github.com/elyini/Biblioteca_Documentacion/blob/main/docs/VERSIONADO.md)
 de Biblioteca Documentación.
 
+## [0.3.0] - 2026-08-30
+
+### Added
+- `data/catalogo.csv` — catálogo de trabajo real: 14.140 filas (una por
+  archivo), campos `region, ruta, nombre, extension, tamano_bytes,
+  tamano_h, tipo_detectado, idioma, serie, volumen, numero, patron`.
+  Esquema propio provisional (ver `ROADMAP.md`) hasta que Biblioteca
+  elyini publique el esquema común.
+- `data/escaneos/america_2026-08-29.json` — copia filtrada (solo
+  `AMERICANO`+`IBEROAMERICANO`) del informe de Biblioteca Mac
+  `elyini_informe_2026-08-29.json`, para no depender de que el repo de
+  Biblioteca Mac esté disponible.
+- `scripts/extraer_catalogo.py` — script que genera ambos archivos a
+  partir de un informe de `elyini_scanner.py`. Solo lee el JSON ya
+  entregado por Biblioteca Mac; no accede al Mac del usuario ni a
+  ningún volumen real.
+
+### Changed
+- Catálogo construido sin esperar un escaneo nuevo: Biblioteca Mac ya
+  había indicado que el informe del 29-08 sigue vigente y localizado las
+  carpetas correspondientes.
+
 ## [0.2.0] - 2026-08-30
 
 ### Changed

@@ -21,14 +21,22 @@ editoriales estadounidenses. Carpetas reales: `AMERICANO` +
 - [x] Detectar (vía escaneo real de Mac) que el volumen AMERICA tiene una
       tercera carpeta (`IBEROAMERICANO`) sin biblioteca asignada, y
       confirmar con el usuario que entra en mi alcance.
-- [ ] Construir el catálogo real a partir del escaneo entregado por
+- [x] Construir el catálogo real a partir del escaneo entregado por
       Biblioteca Mac (`elyini_informe_2026-08-29.json`, carpetas
-      `AMERICANO` + `IBEROAMERICANO`), sin esperar a un escaneo nuevo.
+      `AMERICANO` + `IBEROAMERICANO`) → `data/catalogo.csv` (14.140 filas),
+      sin esperar a un escaneo nuevo.
 - [ ] Adoptar el esquema de datos común en cuanto lo publique Biblioteca
-      elyini; mientras tanto, usar un esquema propio provisional.
-- [ ] Definir campos de catálogo propios (editorial/sello independiente,
-      autor(es), guionista, dibujante, año, formato: serie/one-shot/
-      recopilatorio, país/región: EEUU, Canadá o Iberoamérica).
+      elyini y migrar `data/catalogo.csv` a ese esquema.
+- [ ] Definir/enriquecer campos de catálogo propios (editorial/sello
+      independiente, autor(es), guionista, dibujante, año, formato:
+      serie/one-shot/recopilatorio, país/región: EEUU, Canadá o
+      Iberoamérica) — el catálogo actual solo trae lo que ya extraía
+      `elyini_scanner.py` (serie/volumen/número por patrón de nombre,
+      13.763 de 14.140 archivos aún sin tipo/idioma detectado con
+      confianza).
+- [ ] Revisar y filtrar los duplicados detectados por Biblioteca Mac que
+      caen en mi ámbito (`AMERICANO`/`IBEROAMERICANO`, dentro de los 200
+      grupos de AMERICA de `resultados/buscar_duplicados/` en su repo).
 
 ## Próximas versiones
 
