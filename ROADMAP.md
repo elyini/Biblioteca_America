@@ -27,13 +27,17 @@ editoriales estadounidenses. Carpetas reales: `AMERICANO` +
       sin esperar a un escaneo nuevo.
 - [ ] Adoptar el esquema de datos común en cuanto lo publique Biblioteca
       elyini y migrar `data/catalogo.csv` a ese esquema.
-- [ ] Definir/enriquecer campos de catálogo propios (editorial/sello
-      independiente, autor(es), guionista, dibujante, año, formato:
-      serie/one-shot/recopilatorio, país/región: EEUU, Canadá o
-      Iberoamérica) — el catálogo actual solo trae lo que ya extraía
-      `elyini_scanner.py` (serie/volumen/número por patrón de nombre,
-      13.763 de 14.140 archivos aún sin tipo/idioma detectado con
-      confianza).
+- [x] Enriquecer `autor(es)` y `formato` a partir de ruta/nombre de
+      archivo (`scripts/enriquecer_catalogo.py`) — ver `CHANGELOG.md`.
+- [ ] `editorial/sello` y `año`: sin señal fiable en ruta/nombre para
+      este dominio; pendiente de metadatos externos (ComicVine/GCD o
+      similar) o de que el usuario decida una fuente.
+- [ ] Separar `guionista` de `dibujante` dentro de `autores`: no hay
+      convención fiable de orden en el nombre de archivo; requeriría la
+      misma fuente externa que editorial/año.
+- [ ] Revisar la calidad de `tipo_detectado`/`idioma` heredados de
+      `elyini_scanner.py` (13.763 de 14.140 archivos sin tipo detectado
+      con confianza) — posible mejora en el propio script de Mac.
 - [ ] Revisar y filtrar los duplicados detectados por Biblioteca Mac que
       caen en mi ámbito (`AMERICANO`/`IBEROAMERICANO`, dentro de los 200
       grupos de AMERICA de `resultados/buscar_duplicados/` en su repo).

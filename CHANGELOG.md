@@ -6,6 +6,30 @@ el estándar completo en
 [`docs/VERSIONADO.md`](https://github.com/elyini/Biblioteca_Documentacion/blob/main/docs/VERSIONADO.md)
 de Biblioteca Documentación.
 
+## [0.4.0] - 2026-08-30
+
+### Added
+- `scripts/enriquecer_catalogo.py` — enriquece `data/catalogo.csv` con 3
+  campos derivados de ruta/nombre de archivo (sin tocar el volumen real):
+  - `autor_carpeta`: autor/creador según la carpeta contenedora
+    (convención real del usuario), 1.611 valores únicos.
+  - `autores`: autor(es) extraídos del "(Fulano & Mengano)" final del
+    nombre cuando existe (93% de los archivos), si no cae a
+    `autor_carpeta`. 3.490 valores únicos. No distingue guionista de
+    dibujante (no hay convención fiable de orden en el nombre; requeriría
+    una base de datos externa tipo ComicVine/GCD).
+  - `formato`: `numero_suelto` (10.525), `recopilatorio_rango` (1.474),
+    `obra_completa` (2.062) o `volumen` (79), por patrón `#NN`/`#NN-MM`/
+    `Vol.N` en el nombre.
+- `data/catalogo.csv` ahora tiene 15 columnas (12 del escaneo + 3
+  enriquecidas).
+
+### Known limitations
+- No se añaden `editorial/sello` ni `año`: ni la ruta ni el nombre de
+  archivo dan una señal fiable para esto en este dominio (a diferencia de
+  autor/formato). Pendiente de metadatos externos o del esquema común de
+  Biblioteca elyini.
+
 ## [0.3.0] - 2026-08-30
 
 ### Added
