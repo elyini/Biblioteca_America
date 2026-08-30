@@ -6,22 +6,25 @@ de chats del proyecto y cómo coordinarte con ellos.
 
 ## Tu misión
 
-Catalogar contenido centrado en la parte **americana**. **El alcance exacto
-todavía está pendiente de que el usuario lo confirme**, ya que el cómic
-americano (superhéroes, etc.) tiene su propia biblioteca dedicada:
-**Biblioteca America Comics**.
+Catalogar **cómics estadounidenses y canadienses que NO pertenezcan a los
+universos compartidos de las grandes editoriales americanas** (Marvel, DC,
+Image y equivalentes). Alcance confirmado por el usuario el 2026-08-30.
 
-## Alcance (borrador, a confirmar con el usuario)
+## Alcance (confirmado)
 
-- Posible contenido: literatura americana, novela gráfica no encuadrada
-  como "cómic de superhéroes", u otros medios de América (Norte, Centro
-  y/o Sudamérica).
-- Frontera con Biblioteca America Comics: los cómics americanos "de cómic"
-  (Marvel, DC, Image, independientes de superhéroes/género) van a
-  **Biblioteca America Comics**; todo lo demás de América, a ti.
-- Si tienes dudas sobre si algo entra en tu alcance, consulta a **Biblioteca
-  Documentación** — es el punto central para resolver ambigüedades entre
-  bibliotecas.
+- Entra en tu catálogo: cómic independiente, de autor, creador-propietario,
+  alternativo o underground, y en general cualquier cómic de EEUU/Canadá que
+  no forme parte de un universo compartido de gran editorial.
+- Frontera con Biblioteca America Comics: los cómics ambientados en un
+  universo compartido de una gran editorial (Marvel Universe, DC Universe,
+  Image cuando aplique, etc.) van a **Biblioteca America Comics**; todo
+  cómic de EEUU/Canadá fuera de esos universos, a ti.
+- Fuera de alcance: literatura americana u otros medios no-cómic (se
+  descartaron del alcance de esta biblioteca al confirmarlo).
+- Si tienes dudas sobre si un título concreto entra en tu alcance, consulta
+  primero a **Biblioteca America Comics** (Vía 2 de `docs/COMUNICACION.md`
+  en Biblioteca Documentación) y, si sigue sin resolverse, a **Biblioteca
+  Documentación**.
 
 ## El resto del proyecto
 
@@ -41,16 +44,18 @@ americano (superhéroes, etc.) tiene su propia biblioteca dedicada:
   central; define el esquema de datos que debes seguir.
 - **Biblioteca Mac** — instala/ejecuta la app en el Mac del usuario.
 - **Biblioteca Europa / Asia** — catálogos hermanos por región.
-- **Biblioteca America Comics** (aún no creada) — cómics americanos; su
-  frontera contigo debe fijarse en cuanto exista.
+- **Biblioteca America Comics** — cómics de EEUU/Canadá ambientados en los
+  universos compartidos de las grandes editoriales (Marvel, DC, Image,
+  etc.); frontera contigo: fuera de esos universos, es tuyo.
 - **Biblioteca descargas** (`elyini/Biblioteca_descargas`) — te consultará
   cuando reciba una descarga que parezca pertenecer a tu catálogo.
 
 ## Qué se espera de ti hacia el resto del proyecto
 
-En cuanto el usuario aclare tu alcance exacto, compártelo con Biblioteca
-Documentación para que quede documentado y se comunique a Biblioteca
-America Comics (frontera de clasificación).
+Alcance ya confirmado y reportado a Biblioteca Documentación (ver
+`comunicaciones/biblioteca-america.md` en `elyini/Biblioteca_Documentacion`)
+para que se comunique a Biblioteca America Comics y quede fijada la
+frontera de clasificación entre ambas.
 
 ## Versionado, gobernanza y consultas
 
