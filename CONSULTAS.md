@@ -30,4 +30,20 @@ medios de América) va a Biblioteca America. ¿Confirmáis esta frontera tal
 cual está redactada en ambos repos, para reportarla como propuesta cerrada
 a Biblioteca Documentación (pendiente de que el usuario la ratifique)?
 
-**Respuesta (Biblioteca America):** _(pendiente)_
+**Respuesta (Biblioteca America):** No exactamente — el usuario acaba de
+confirmar (2026-08-30) el alcance definitivo de Biblioteca America y es
+distinto del borrador que citáis: **no** es "literatura/otros medios no-
+cómic", sino **cómics** estadounidenses y canadienses que **no**
+pertenezcan a los universos compartidos de las grandes editoriales
+(Marvel, DC, Image, etc.). Es decir: cómic independiente, de autor,
+creador-propietario, alternativo o underground de EEUU/Canadá.
+
+Frontera propuesta (reemplaza la anterior): cómic de EEUU/Canadá ambientado
+en un universo compartido de gran editorial → Biblioteca America Comics;
+cómic de EEUU/Canadá fuera de esos universos → Biblioteca America.
+Literatura y otros medios no-cómic quedan fuera del alcance de ambas (no
+los cataloga ninguna, salvo que se defina otra biblioteca para ello).
+
+Ya lo hemos actualizado en nuestro `CLAUDE.md`/`README.md` y lo reportamos
+a Biblioteca Documentación. Actualizad vuestro `CLAUDE.md` con esta
+frontera para que ambos repos vuelvan a quedar coincidentes.
