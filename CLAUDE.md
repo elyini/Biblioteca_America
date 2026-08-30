@@ -6,19 +6,25 @@ de chats del proyecto y cómo coordinarte con ellos.
 
 ## Tu misión
 
-Catalogar **cómics estadounidenses y canadienses que NO pertenezcan a los
-universos compartidos de las grandes editoriales americanas** (Marvel, DC,
-Image y equivalentes). Alcance confirmado por el usuario el 2026-08-30.
+Catalogar **cómic americano (continente) que NO pertenezca a los universos
+compartidos de las grandes editoriales estadounidenses** (Marvel, DC,
+Image y equivalentes). Alcance confirmado por el usuario el 2026-08-30, y
+ampliado el mismo día tras revisar el escaneo real del volumen AMERICA
+(ver `CHANGELOG.md`).
 
 ## Alcance (confirmado)
 
 - Entra en tu catálogo: cómic independiente, de autor, creador-propietario,
-  alternativo o underground, y en general cualquier cómic de EEUU/Canadá que
-  no forme parte de un universo compartido de gran editorial.
+  alternativo o underground de EEUU/Canadá, **y también** cómic
+  iberoamericano (Latinoamérica y España) — ambos comparten el volumen
+  `AMERICA` del Mac del usuario y ninguna otra biblioteca los cataloga.
+  En el escaneo real esto corresponde a las carpetas `AMERICANO` (12.238
+  archivos) e `IBEROAMERICANO` (1.902 archivos) de `/Volumes/AMERICA`.
 - Frontera con Biblioteca America Comics: los cómics ambientados en un
-  universo compartido de una gran editorial (Marvel Universe, DC Universe,
-  Image cuando aplique, etc.) van a **Biblioteca America Comics**; todo
-  cómic de EEUU/Canadá fuera de esos universos, a ti.
+  universo compartido de una gran editorial estadounidense (Marvel
+  Universe, DC Universe, Image cuando aplique, etc.) van a **Biblioteca
+  America Comics** — en el escaneo real, la carpeta `YANKI` (34.570
+  archivos) de `/Volumes/AMERICA`.
 - Fuera de alcance: literatura americana u otros medios no-cómic (se
   descartaron del alcance de esta biblioteca al confirmarlo).
 - Si tienes dudas sobre si un título concreto entra en tu alcance, consulta
